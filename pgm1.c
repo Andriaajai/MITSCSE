@@ -2,20 +2,20 @@
 int main()
 {
 	int i,r,j;
-	print("enter the number of rows");
-	scan("%d",&r);
+	printf("enter the number of rows");
+	scanf("%d",&r);
 	for(i=0;i<r;i++)
 	{
 		for(j=0;j<i;j++)
 		{
-			print("\t");
+			printf("\t");
 		}
 		for(;j<r;j++)
 		{
-			print("*");
-			print("\t");
+			printf("*");
+			printf("\t");
 		}
-		print("\n");
+		printf("\n");
 	}
 	return 0;
 }

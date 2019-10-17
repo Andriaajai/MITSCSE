@@ -23,21 +23,6 @@ int main()
         }
         printf("\n");
     }
-    for(i=0;i<m;i++)
-    {
-        for(k=0;k<n-1;k++)
-        {
-           for(j=0;j<n-1;j++)
-           {
-               if(a[i][j]>a[i][j+1])
-               {
-                   temp=a[i][j];
-                   a[i][j]=a[i][j+1];
-                   a[i][j+1]=temp;
-               }
-           }
-        }
-    }
     printf("the sorted array is\n");
     for(i=0;i<m;i++)
     {

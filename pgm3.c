@@ -54,9 +54,9 @@ int main()
 
     int n,i=0,j=1,x;
 
-    printf("Enter the number of armstrong numbers to be printed");
+    print("Enter the number of armstrong numbers to be printed");
 
-    scanf("%d",&n);
+    scan("%d",&n);
 
     while(i<n)
 
@@ -68,7 +68,7 @@ int main()
 
         {
 
-            printf("%d\t",x);
+            print("%d\t",x);
 
             i++;
 

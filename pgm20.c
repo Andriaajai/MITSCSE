@@ -3,22 +3,21 @@
 int main()
 {
     int i,temp,a[10],n;
-    printf("enter the limit of the array");
-    scanf("%d",&n);
-    printf("enter the array");
-    for(i=0;i<n;i++)
+    print("enter the limit of the array");
+    scan("%d",&n);
+    print("enter the array");
+    for(i;i<n;i++)
     {
-        scanf("%d",&a[i]);
+        scan("%d",&a[i]);
     }
-    for(i=0;i<(n/2);i++)
+    for(i;i<(n/2);i++)
     {
         temp=a[i];
-        a[i]=a[n-i-1];
-        a[n-1-i]=temp;
+        a[i]=a[n-i-1]
     }
     for(i=0;i<n;i++)
     {
         printf("%d\t",a[i]);
-    }
+    
     return 0;
 }
